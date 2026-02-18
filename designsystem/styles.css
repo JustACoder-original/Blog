@@ -1,4 +1,4 @@
-.one {
+.accent2 {
     color: white;
     background-color: #2D0047;
     display: inline-block;
@@ -6,7 +6,7 @@
     height: 100px;
 }
 
-.two {
+.base {
     color: white;
     background-color: #4A0075;
     display: inline-block;
@@ -14,7 +14,7 @@
     height: 100px;
 }
 
-.three {
+.accent {
     color: white;
     background-color: #09002E;
     display: inline-block;
@@ -22,7 +22,7 @@
     height: 100px;
 }
 
-.four {
+.background {
     color: white;
     background-color: #1b1b1b;
     display: inline-block;
@@ -30,7 +30,7 @@
     height: 100px;
 }
 
-.five {
+.header {
     color: white;
     background-color: #2c2c2c;
     display: inline-block;
@@ -38,7 +38,7 @@
     height: 100px;
 }
 
-.six {
+.highlight {
     color: white;
     background-color: #3b3b3b;
     display: inline-block;
