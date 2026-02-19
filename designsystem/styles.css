@@ -1,42 +1,37 @@
-.base {
+body {
+    margin: 0;
+}
+.name {
+    margin-left: 10px;
+}
+.colors { 
+    font-size: 0;
+}
+.pallets {
     color: white;
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    height: 100px;
+    font-size: 1rem;
+}
+#base {
     background-color: #4A0075;
-    display: inline-block;
-    width: 16%;
-    height: 100px;
 }
-.accent {
-    color: white;
+#accent {
     background-color: #09002E;
-    display: inline-block;
-    width: 16%;
-    height: 100px;
 }
-.accent2 {
-    color: white;
+#accent2 {
     background-color: #2D0047;
-    display: inline-block;
-    width: 16%;
-    height: 100px;
 }
-.background {
-    color: white;
-    background-color: #1b1b1b;
-    display: inline-block;
-    width: 16%;
-    height: 100px;
-}
-.header {
-    color: white;
+#header {
     background-color: #2c2c2c;
-    display: inline-block;
-    width: 16%;
-    height: 100px;
 }
-.highlight {
-    color: white;
+#highlight {
     background-color: #3b3b3b;
-    display: inline-block;
-    width: 16%;
-    height: 100px;
+}
+#background {
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 300px;
 }
