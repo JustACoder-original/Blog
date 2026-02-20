@@ -1,6 +1,18 @@
 body {
     margin: 0;
 }
+h1 {
+    font-family: 'Rubik', 'Google Sans', 'Alata', sans-serif;
+}
+h2 {
+    font-family: 'Rubik', 'Google Sans', 'Alata',sans-serif;
+}
+h3 {
+    font-family: 'Alata', 'Rubik', 'Google Sans', sans-serif;
+}
+p {
+    font-family: 'Google Sans', 'Rubik', 'Alata', sans-serif;
+}
 .name {
     margin-left: 10px;
 }
