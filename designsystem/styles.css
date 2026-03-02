@@ -3,15 +3,26 @@ body {
 }
 h1 {
     font-family: 'Rubik', 'Google Sans', 'Alata', sans-serif;
+    font-size: 47px;
+    font-weight: 500;
 }
 h2 {
     font-family: 'Rubik', 'Google Sans', 'Alata',sans-serif;
+    font-size: 33px;
+    font-weight: 470;
 }
 h3 {
     font-family: 'Alata', 'Rubik', 'Google Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
 }
 p {
     font-family: 'Google Sans', 'Rubik', 'Alata', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.fonts {
+    margin-left: 5px;
 }
 .name {
     margin-left: 10px;
