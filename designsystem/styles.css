@@ -1,26 +1,52 @@
+/* Design System Selectors */
+
 body {
     margin: 0;
+    background-color: #1b1b1b;
 }
 h1 {
     font-family: 'Rubik', 'Google Sans', 'Alata', sans-serif;
     font-size: 47px;
     font-weight: 500;
+    color: white;
+    background-color: #2c2c2c;
 }
 h2 {
     font-family: 'Rubik', 'Google Sans', 'Alata',sans-serif;
     font-size: 33px;
     font-weight: 470;
+    color: white;
+    background-color: #2c2c2c;
+    display: inline-block;
+
 }
 h3 {
     font-family: 'Alata', 'Rubik', 'Google Sans', sans-serif;
-    font-size: 17px;
+    font-size: 21px;
     font-weight: 700;
+    color: white;
+    background-color: #3b3b3b;
+    display: inline-block;
+    padding: 5px;
 }
 p {
     font-family: 'Google Sans', 'Rubik', 'Alata', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
+    color: white;
 }
+
+/* Website Specific Selectors */
+
+.google p {
+    font-family: 'Google Sans', 'Rubik', 'Alata', sans-serif;
+} 
+.alata p {
+    font-family: 'Alata', 'Rubik', 'Google Sans', sans-serif;
+}
+.rubik p {
+    font-family: 'Rubik', 'Google Sans', 'Alata', sans-serif;
+}  b
 .fonts {
     margin-left: 5px;
 }
@@ -34,9 +60,11 @@ p {
     color: white;
     text-align: center;
     display: inline-block;
-    width: 20%;
-    height: 100px;
+    width: 200px;
+    height: 140px;
     font-size: 1rem;
+    border: 5px  solid rgb(255, 255, 255);
+    padding: 5px;
 }
 #base {
     background-color: #4A0075;
@@ -56,5 +84,4 @@ p {
 #background {
     background-color: #1b1b1b;
     width: 100%;
-    height: 300px;
 }
